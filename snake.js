@@ -1,3 +1,6 @@
+// Samuel Turner-Lill
+// 9/8/16 11:56pm
+
 /* Global variables */
 var frontBuffer = document.getElementById('snake');
 var frontCtx = frontBuffer.getContext('2d');
