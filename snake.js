@@ -105,7 +105,7 @@ function update(elapsedTime) {
         }
     }
     // TODO: Determine if the snake has moved out-of-bounds (offscreen)
-    if (snakeFragmentsX[0] < 0 || snakeFragmentsX[0] > 480 || snakeFragmentsY[0] < 0 || snakeFragmentsY[0] > 760) 
+    if (snakeFragmentsX[0] < 0 || snakeFragmentsX[0] > backBuffer.width || snakeFragmentsY[0] < 0 || snakeFragmentsY[0] > backBuffer.height) 
     {
         gameOver = 1;
      }
